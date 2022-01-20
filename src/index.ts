@@ -16,9 +16,32 @@ WA.room.onEnterLayer('clockZone').subscribe(() => {
 
 WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
 
+WA.room.onEnterLayer('FollowUs').subscribe(() => {
+    currentPopup =  WA.ui.openPopup("socialmedia","Follow us on",[
+            {
+                label: 'Facebook',
+                className: 'primary',
+                callback: () => WA.nav.openTab('https://www.facebook.com/CMIRennes'),
+            },
+            {
+                label: 'Insta',
+                className: 'error',
+                callback: () => WA.nav.openTab('https://www.instagram.com/cmirennes/'),
+            },
+			{
+                label: 'Twitter',
+                className: 'primary',
+                callback: () => WA.nav.openTab('https://twitter.com/CMIRennes'),
+            }
+        ] );
+})
+
+WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
+
 function closePopUp(){
     if (currentPopup !== undefined) {
         currentPopup.close();
         currentPopup = undefined;
     }
 }
+
