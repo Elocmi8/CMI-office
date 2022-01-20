@@ -19,7 +19,7 @@ WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
 WA.room.onEnterLayer('FollowUs').subscribe(() => {
     currentPopup =  WA.ui.openPopup("socialmedia","Follow us on",[
             {
-                label: 'Facebook',
+                label: 'FB',
                 className: 'primary',
                 callback: () => WA.nav.openTab('https://www.facebook.com/CMIRennes'),
             },
@@ -36,7 +36,7 @@ WA.room.onEnterLayer('FollowUs').subscribe(() => {
         ] );
 })
 
-WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
+WA.room.onLeaveLayer('FollowUs').subscribe(closePopUp)
 
 function closePopUp(){
     if (currentPopup !== undefined) {
