@@ -315,7 +315,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/cmi.univ-rennes.fr\/sites\/ueb-rennes.versio.fr\/files\/imce\/AgendaCulturel\/2021-2022\/agenda2021-2022interactif-LQ.pdf"
+                 "value":"https:\/\/mcusercontent.com\/4d6784b41bf77fa1edada603d\/files\/542b8885-bdd0-6b13-cf27-faba37ed8fa7\/agenda2021_2022interactif.pdf"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -604,9 +604,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":319,
-                 "x":292,
-                 "y":878
+                 "width":310,
+                 "x":302,
+                 "y":879
                 }, 
                 {
                  "height":71,
@@ -615,8 +615,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":134,
-                 "x":816,
+                 "width":208,
+                 "x":785,
                  "y":562
                 }, 
                 {
@@ -626,8 +626,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":134,
-                 "x":818,
+                 "width":207,
+                 "x":785,
                  "y":372
                 }, 
                 {
@@ -637,8 +637,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":134,
-                 "x":817,
+                 "width":210,
+                 "x":781,
                  "y":175
                 }, 
                 {
@@ -648,8 +648,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":134,
-                 "x":815,
+                 "width":206,
+                 "x":789,
                  "y":753
                 }],
          "opacity":1,
