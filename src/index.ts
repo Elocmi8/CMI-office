@@ -38,11 +38,29 @@ WA.room.onEnterLayer('FollowUs').subscribe(() => {
 
 WA.room.onLeaveLayer('FollowUs').subscribe(closePopUp)
 
-WA.room.onEnterLayer('attenteBureau').subscribe(() => {
-    currentPopup =  WA.ui.openPopup("bureaux","If there is already 2 people inside, please wait here.",[]);
+WA.room.onEnterLayer('attenteBureau1').subscribe(() => {
+    currentPopup =  WA.ui.openPopup("bureau1","If there is already 2 people inside, please wait here.",[]);
 })
 
-WA.room.onLeaveLayer('attenteBureau').subscribe(closePopUp)
+WA.room.onLeaveLayer('attenteBureau1').subscribe(closePopUp)
+
+WA.room.onEnterLayer('attenteBureau2').subscribe(() => {
+    currentPopup =  WA.ui.openPopup("bureau2","If there is already 2 people inside, please wait here.",[]);
+})
+
+WA.room.onLeaveLayer('attenteBureau2').subscribe(closePopUp)
+
+WA.room.onEnterLayer('attenteBureau3').subscribe(() => {
+    currentPopup =  WA.ui.openPopup("bureau3","If there is already 2 people inside, please wait here.",[]);
+})
+
+WA.room.onLeaveLayer('attenteBureau3').subscribe(closePopUp)
+
+WA.room.onEnterLayer('attenteBureau4').subscribe(() => {
+    currentPopup =  WA.ui.openPopup("bureau4","If there is already 2 people inside, please wait here.",[]);
+})
+
+WA.room.onLeaveLayer('attenteBureau4').subscribe(closePopUp)
 
 function closePopUp(){
     if (currentPopup !== undefined) {
